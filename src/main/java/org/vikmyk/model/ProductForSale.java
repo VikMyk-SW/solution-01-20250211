@@ -24,5 +24,5 @@ public abstract class ProductForSale extends ProductItem {
 
     }
 
-    abstract void showDetails() ;
+    public abstract void showDetails() ;
 }

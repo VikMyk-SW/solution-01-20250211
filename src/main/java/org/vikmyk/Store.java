@@ -1,9 +1,6 @@
 package org.vikmyk;
 
-import org.vikmyk.model.ComputerDeskForSale;
-import org.vikmyk.model.DesktopComputerForSale;
-import org.vikmyk.model.LaptopForSale;
-import org.vikmyk.model.ProductForSale;
+import org.vikmyk.model.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,10 +16,13 @@ public class Store {
         List<ProductForSale> storeListForSale = new ArrayList<>(Set.of(
                 new DesktopComputerForSale(),
                 new LaptopForSale(),
-                new ComputerDeskForSale()
-        ));;
+                new ComputerDeskForSale(),
+                new ChairForSale()
+        ));
 
         for (ProductForSale item : storeListForSale) {
+            System.out.println("----------------------------------------------");
+            item.showDetails();
 
         }
 

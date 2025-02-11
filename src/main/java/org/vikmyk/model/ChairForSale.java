@@ -3,10 +3,10 @@ package org.vikmyk.model;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 
-public class LaptopForSale extends ProductForSale {
+public class ChairForSale extends ProductForSale {
 
-    public LaptopForSale() {
-        super("Laptop", BigDecimal.valueOf(900.0), "This laptop is a modern computer");
+    public ChairForSale() {
+        super("Reading Chair", BigDecimal.valueOf(200.0), "This chair was manufactured in Estonia");
     }
 
     @Override
