@@ -1,6 +1,7 @@
 package org.vikmyk.model;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 public class DesktopComputerForSale extends ProductForSale {
 
@@ -11,7 +12,8 @@ public class DesktopComputerForSale extends ProductForSale {
     @Override
     public void showDetails() {
         System.out.println(this.description);
-        System.out.println("The price of the piece is %d euro.".formatted(this.price));
+        DecimalFormat df = new DecimalFormat("#####.##");
+        System.out.println("The price of the piece is %s euro.".formatted(df.format(this.price)));
         System.out.println(this.type);
     }
 }
