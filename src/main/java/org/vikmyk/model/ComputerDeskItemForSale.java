@@ -1,18 +1,21 @@
 package org.vikmyk.model;
 
 import java.math.BigDecimal;
-import java.text.DecimalFormat;
 
-public class ComputerDeskForSale extends ProductForSale {
-    public ComputerDeskForSale() {
+public final class ComputerDeskItemForSale extends ProductItemForSale {
+    public ComputerDeskItemForSale() {
         super("Computer Desk", BigDecimal.valueOf(100.0), "This desk was manufactured in Estonia");
     }
 
     @Override
     public void showDetails() {
         System.out.println(this.description);
-        DecimalFormat df = new DecimalFormat("#####.##");
-        System.out.println("The price of the piece is %s euro.".formatted(df.format(this.price)));
+        printPricedItem();
         System.out.println(this.type);
+    }
+
+    @Override
+    public String toString() {
+        return "computer";
     }
 }
