@@ -1,19 +1,22 @@
 package org.vikmyk.model;
 
 import java.math.BigDecimal;
-import java.text.DecimalFormat;
 
-public class LaptopForSale extends ProductForSale {
+public final class LaptopItemForSale extends ProductItemForSale {
 
-    public LaptopForSale() {
+    public LaptopItemForSale() {
         super("Laptop", BigDecimal.valueOf(900.0), "This laptop is a modern computer");
     }
 
     @Override
     public void showDetails() {
         System.out.println(this.description);
-        DecimalFormat df = new DecimalFormat("#####.##");
-        System.out.println("The price of the piece is %s euro.".formatted(df.format(this.price)));
+        printPricedItem();
         System.out.println(this.type);
+    }
+
+    @Override
+    public String toString() {
+        return "laptop";
     }
 }
