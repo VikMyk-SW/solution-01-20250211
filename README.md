@@ -1,3 +1,5 @@
+[![Java CI with Gradle](https://github.com/VikMyk-SW/solution-01-20250211/actions/workflows/gradle.yml/badge.svg)](https://github.com/VikMyk-SW/solution-01-20250211/actions/workflows/gradle.yml)
+
 # solution-01 (2025/02/11)
 solution-01-20250211
 
