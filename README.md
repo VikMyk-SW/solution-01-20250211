@@ -12,6 +12,12 @@ solution-01-20250211
 $ java -jar build/libs/solution-01-20250211-1.0-SNAPSHOT.jar
 ```
 
+### Class diagram
+
+![Class diagram image] (https://github.com/VikMyk-SW/solution-01-20250211/docs/images/Store.png)
+
+
+
 ### Result (output)
 ```
 ----------------------------------------------
@@ -43,4 +49,5 @@ Order 2
 Total price: 1,800.0 euro.
 
 ```
+
 
