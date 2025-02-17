@@ -14,7 +14,7 @@ $ java -jar build/libs/solution-01-20250211-1.0-SNAPSHOT.jar
 
 ### Class diagram
 
-![Class diagram image] (https://github.com/VikMyk-SW/solution-01-20250211/docs/images/Store.png)
+![Class diagram](https://github.com/VikMyk-SW/solution-01-20250211/blob/main/docs/images/Store.png)
 
 
 
